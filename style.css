@@ -1,0 +1,103 @@
+body {
+    background-color: #1f6e8c;
+}
+
+#uitleg{
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+}
+
+.alignright{
+    display: flex;
+    float: right;
+}
+
+.wp-block-heading{
+    display: flex;
+}
+
+.wp-block-image{
+    overflow: auto;
+    width: 100%;
+    height: auto;
+}
+
+#page{
+    background-color: #1f6e8c;
+    margin: auto;
+}
+
+.wp-block-group{
+    background-color: black;
+}
+
+body{
+    margin: 0;
+}
+
+.wp-block-heading{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.has-text-align-left{
+    max-width: 100%;
+    height: auto;
+}
+
+h2:hover.wp-block-heading{
+    background-color: rgb(0, 42, 255);
+    max-width: 100%;
+    height: auto;
+}
+
+p:hover{
+    background-color: darkviolet;
+    font-size: x-large;
+}
+
+span:hover{
+    background-color: darkviolet;
+}
+
+
+ul{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+li:hover{
+    background-color: darkviolet;
+    font-size: xx-large;
+    max-width: 100%;
+    height: auto;
+}
+
+.wp-element-caption:hover{
+    display: flex;
+    justify-content: center;
+    background-color: darkviolet;
+}
+
+html::-webkit-scrollbar{
+    width: 20px;
+}
+
+html::-webkit-scrollbar-track{
+    background:  rgb(118, 93, 172);
+}
+
+html::-webkit-scrollbar-thumb{
+    background: darkmagenta;
+}
